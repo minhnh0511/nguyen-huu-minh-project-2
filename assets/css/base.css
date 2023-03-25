@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-button-one: #8261EE;
+    --color-button-two: #FF589E;
+    --color-text: #1E1E1E;
+    --color-desc: #777777;
+    --color-bg: #F2F2FE;
+
+    --font: 'DM Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: var(--color-button-two);
+    color: #fff;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--color-text);
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.main-content {
+    color: var(--color-text);
+    margin-bottom: 30px;
+}
+
+.margin-left-25 {
+    margin-left: 25%;
+}
+
+.inner-desc {
+    color: var(--color-desc);
+    opacity: 0.7;
+}
+
+.head-box {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin: 0;
+}
+
+
